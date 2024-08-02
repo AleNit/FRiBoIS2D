@@ -7,7 +7,7 @@ Jietuo Wang, Polytechnic University of Bari (https://scholar.google.it/citations
 Marco Donato de Tullio, Polytechnic University of Bari (https://scholar.google.it/citations?user=4ulk_wYAAAAJ&hl=it&oi=ao)  
 
 # Methodology
-The governing equations and the setup of the test cases are described in FRiBoi2Dnotes.pdf. Details about the methodology and numerical implementation can be found in the following papers:  
+The governing equations and the setup of the test cases are described in FRiBoiS2D_notes.pdf. Details about the methodology and numerical implementation can be found in the following papers:  
 https://doi.org/10.1016/j.jcp.2016.08.020  
 https://doi.org/10.1016/j.jcp.2019.01.010  
 https://doi.org/10.1016/j.cma.2020.112977  
