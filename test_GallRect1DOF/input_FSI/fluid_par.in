@@ -13,13 +13,13 @@
 ###################### SIMULATION SETTING  
 3           		# time-stepping scheme						(nsst)  
 .true.      		# write fluid solution to file                              	(nwrit)  
-2.0      		# Time interval for writing to file fluid solution              (tframef)  
+0.5      		# Time interval for writing to file fluid solution              (tframef)  
 1.0e-7     		# maximum local divergence value ammissible                     (resid)  
 0.8         		# Courant number for wave eqn on outflow bc                     (cou)  
  
  
 ###################### BOUNDARY CONDITIONS AND DIM.LESS PARAMETERS  
-0.01        		# inverse of the Reynolds number                                (visc)           
+0.004        		# inverse of the Reynolds number                                (visc)           
 .false.      		# no-slip condition on the bottom wall                          (inslws)  
 .false.      		# no-slip condition on the top wall                        	(inslwn)  
 0.0         		# Z velocity component on upper wall                            (q3uw)  
