@@ -8,6 +8,9 @@ Marco Donato de Tullio, Polytechnic University of Bari (https://scholar.google.i
 
 # Methodology
 qui metti le equazioni risolte e cenni al metodo.
+https://doi.org/10.1016/j.jcp.2016.08.020  
+https://doi.org/10.1016/j.jcp.2019.01.010  
+https://doi.org/10.1016/j.cma.2020.112977  
 
 # How to run a test
 1. Create the desiderd Eulerian grid by running the script ./proproc/MAIN_<test_name>.m. Please note that the body is expected to remain in the region of uniform grid spacing.  
