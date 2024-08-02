@@ -1,27 +1,27 @@
-###################### DOMAIN AND GRID  
-40.000       # domain length in Z-dir (inflow/outflow direction)            (alx3)  
-60.000       # domain length in Y-dir (wall direction)                      (rext2)  
-811, 673 # grid resolution in Z, Y                                        (n3,n2)  
-100           # bunching law in Z direction                                  (istr3)  
-8.0,8.0,100,90,101    # options for istr3=3                    (str3u,str3l,n3str,n3strm,n3strp)  
-6.0,9.0     # uniform grid region coordinates for istr3=3                  (int3)  
-100           # bunching law in Y direction                                  (istr2)  
-3.0,3.0,100,60,101  # options for istr2=3                         (str2u,str2l,n2str,n2strm,n2strp)  
-2.0,4.0     # uniform grid region coordinates for istr2=3                  (int2)   
+###################### DOMAIN AND GRID 
+40.000       # domain length in Z-dir (inflow/outflow direction)            (alx3) 
+60.000       # domain length in Y-dir (wall direction)                      (rext2) 
+811, 673 # grid resolution in Z, Y                                        (n3,n2) 
+100           # bunching law in Z direction                                  (istr3) 
+8.0,8.0,100,90,101    # options for istr3=3                    (str3u,str3l,n3str,n3strm,n3strp) 
+6.0,9.0     # uniform grid region coordinates for istr3=3                  (int3) 
+100           # bunching law in Y direction                                  (istr2) 
+3.0,3.0,100,60,101  # options for istr2=3                         (str2u,str2l,n2str,n2strm,n2strp) 
+2.0,4.0     # uniform grid region coordinates for istr2=3                  (int2)  
  
  
-###################### SIMULATION SETTING  
-3           # time-stepping scheme					(nsst)  
-.true.      # write fluid solution to file                              (nwrit)  
-2.0      # Time interval for writing to file fluid solution             (tframef)  
-1.0e-7     # maximum local divergence value ammissible                   (resid)  
-0.8         # Courant number for wave eqn on outflow bc                    (cou)  
+###################### SIMULATION SETTING 
+3           # time-stepping scheme					(nsst) 
+.true.      # write fluid solution to file                              (nwrit) 
+0.2      # Time interval for writing to file fluid solution             (tframef) 
+1.0e-7     # maximum local divergence value ammissible                   (resid) 
+0.8         # Courant number for wave eqn on outflow bc                    (cou) 
  
  
-###################### BOUNDARY CONDITIONS AND DIM.LESS PARAMETERS  
-0.01        # inverse of the Reynolds number                               (visc)           
-.false.      # no-slip condition on the bottom wall                           (inslws)  
-.false.      # no-slip condition on the top wall                        (inslwn)  
-0.0         # Z velocity component on upper wall                           (q3uw)  
-0.0         # Z velocity component on lower wall                           (q3lw)  
+###################### BOUNDARY CONDITIONS AND DIM.LESS PARAMETERS 
+0.01        # inverse of the Reynolds number                               (visc)          
+.false.      # no-slip condition on the bottom wall                           (inslws) 
+.false.      # no-slip condition on the top wall                        (inslwn) 
+0.0         # Z velocity component on upper wall                           (q3uw) 
+0.0         # Z velocity component on lower wall                           (q3lw) 
  
