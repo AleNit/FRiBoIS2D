@@ -1,0 +1,14 @@
+#################################### RIGID BODY PARAMETERS  
+.true.    				# closed body                                               (cbody)  
+30.0010, 15.0010      			# initial CM linear coordinates [y,z]                   (cmposi)  
+0.0            				# initial CM angular coordinates                  (cmroti)  
+0.0,0.0           			# gravity force components                       (rbgravF)  
+10.000            			# body relative density                          (rbden)  
+0.78539816,0.09817477        		# nondimensional area and moment of area  (rba)  
+0,1,1            			# constraint array components                    (rbmcon)  
+12.40250000,1.0,1.0  			# nondim stiffness (y,z,a)  
+0.0,0.0,0.0      			# nondim cubic stiffness (y,z,a)  
+0.0,0.0,0.0      			# nondim damping (y,z,a)  
+.false.           			# translation-rotation coupling  
+0.4             			# rt ratio   
+ 

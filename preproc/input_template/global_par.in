@@ -1,0 +1,24 @@
+###################### COMMON SETTINGS 
+1.0e-3      		# time-step size [s]                                     	(dt) 
+.true.      		# fixed time-step size                                     	(idtv)  
+5.0e-3      		# largest time-step size for variable dt                        (dtmax) 
+0.2         		# maximum CFL for variable dt                                   (cflmax) 
+2.0         		# maximum CFL for stability                                  	(cfllim) 
+out      		# output folder filename                                     	(outfol)             
+.false.      		# simulation restart				         	(irest) 
+50.0      		# time interval for writing restart files                       (trestart)            
+
+ 
+###################### FSI CASE 
+.true.     		# T - activate immersed boundary treatment                      (ibact) 
+ 
+ 
+###################### FORCING OPTIONS 
+1.0         		# scale factor for normal arrays                              	(kprobe)  
+.false.			# write to file some quantities at Lagrangian markers		(prlgr)
+0.5      		# time interval for prlgr 			                (tprtag)       
+1           		# steps for iterative boundary conditions forcing               (forst) 	
+1.6         		# support domain radius                                         (radiusSD)             
+1           		# Type of weighting function for MLS interpolation              (wfun) 	
+
+ 
