@@ -14,7 +14,7 @@ https://doi.org/10.1016/j.cma.2020.112977
 
 # How to run a test
 1. Create the desiderd Eulerian grid by running the script ./proproc/MAIN_<test_name>.m. Please note that the body is expected to remain in the region of uniform grid spacing.  
-2. Insert the values of physical parameters in the created test folder. For instance, change the Reynolds number my modifying line 22 of the file <test_name>/input_FSI/fluid_par.in or the solid-to-fluid density ratio at line 6 of the file <test_name>/input_FSI/rigid_par.in.
+2. Insert the values of physical parameters in the created test folder. For instance, change the Reynolds number by modifying line 22 of the file <test_name>/input_FSI/fluid_par.in or the solid-to-fluid density ratio at line 6 of the file <test_name>/input_FSI/rigid_par.in.
 3. Compile the ./src/ files via makefile  
 4. Run the test in the <test_name> folder via mpirun or srun
 
