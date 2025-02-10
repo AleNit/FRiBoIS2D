@@ -121,7 +121,7 @@
                     ucy(6)*tany*norz*nory + ucy(7)*tany*norz*norz + &
                     ucz(4)*tanz*nory*nory + ucz(5)*tanz*nory*norz + &
                     ucz(6)*tanz*norz*nory + ucz(7)*tanz*norz*norz)
-          ducdnm  =ducdn-d2ucdn2*hpr-0.5*d3ucdn3*hpr**2
+          ducdnm = ducdn - d2ucdn2*hpr + 0.5*d3ucdn3*hpr**2
           tau(n,:)=visc*ducdnm*lmtan(:)
 
 
